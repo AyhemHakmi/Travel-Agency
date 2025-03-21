@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robot Bobby Earth</title>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+    <script type="importmap">
+			{
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+        }
+			}
+		</script>
+  </head>
+  <body>
+    <div style="text-align: center; padding: 30px;">
+      <h1 style="position: relative; animation: fadeIn 2s ease-in;">Your Vacation, Your Choice</h1>
+      <h2 style="position: relative; animation: fadeIn 3s ease-in;">Be in control of your adventure</h2>
+      <h3 style="position: relative; animation: fadeIn 4s ease-in;">AI Powered Engine</h3>
+    </div>
+    <style>
+      @keyframes fadeIn {
+      0% { transform: translateY(1000%); opacity: 0; }
+      100% { transform: translateY(10); opacity: 1; }
+      }
+    </style>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
