@@ -14,6 +14,8 @@ document.body.appendChild(renderer.domElement);
 
 renderer.domElement.style.position = 'fixed';
 renderer.domElement.style.top = '40%';
+renderer.domElement.style.bottom = '0';
+renderer.domElement.style.left = '0';
 renderer.domElement.style.zIndex = '-1';
 scene.background = new THREE.Color(0xffffff);
 
@@ -82,7 +84,8 @@ function handleWindowResize() {
 window.addEventListener('resize', handleWindowResize, false);
 
 // Adjust the position of the Earth when scrolling
+// Adjust the position of the Earth when scrolling
 window.addEventListener('scroll', () => {
-  const scrollY = window.scrollY || window.pageYOffset;
-  renderer.domElement.style.bottom = `${-scrollY}px`;
-});
+   const scrollY = window.scrollY || window.pageYOffset;
+   renderer.domElement.style.transform = `translateY(${-scrollY}px)`;
+  });

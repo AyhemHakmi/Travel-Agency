@@ -9,6 +9,7 @@
         margin: 0;
       }
     </style>
+    <link rel = "stylesheet" href = "styles.css">
     <script type="importmap">
 			{
 				"imports": {
@@ -19,17 +20,23 @@
 		</script>
   </head>
   <body>
-    <div style="text-align: center; padding: 30px;">
-      <h1 style="position: relative; animation: fadeIn 2s ease-in;">Your Vacation, Your Choice</h1>
-      <h2 style="position: relative; animation: fadeIn 3s ease-in;">Be in control of your adventure</h2>
-      <h3 style="position: relative; animation: fadeIn 4s ease-in;">AI Powered Engine</h3>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="login.html">Login</a></li>
+        <li class="nav-item"><a href="plan.html">Plan Now</a></li>
+      </ul>
+    </nav>
+    <div class = "intro">
+      <h1 id = "animation">Your Vacation, Your Choice</h1>
+      <h2 id = "animation">Be in control of your adventure</h2>
+      <h3 id = "animation">AI Powered Engine</h3>
     </div>
-    <style>
-      @keyframes fadeIn {
-      0% { transform: translateY(1000%); opacity: 0; }
-      100% { transform: translateY(10); opacity: 1; }
-      }
-    </style>
+    
+    <section id="about-us">
+      <h2>About Us</h2>
+      <p>We are a travel agency leveraging AI to customize your travel experiences. From tailored activity suggestions to personalized restaurant recommendations, we ensure your journey is truly unique.</p>
+    </section>
 
     <script type="module" src="index.js"></script>
   </body>

@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Test_font";
+    src: url("./Fonts/Crustaceans-SignatureDEMO-Regular.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "NavBar";
+    src: url("./Fonts/unicode.futurabb.ttf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+@keyframes fadeIn {
+    0% { transform: translateY(1000%); opacity: 0; }
+    100% { transform: translateY(10); opacity: 1; }
+    }
+
+
+      /* Make the intro section fill the entire screen */
+.intro {
+    min-height: 100vh; /* Takes up full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensures text stays on top of the Earth canvas */
+    position: relative;
+  }
+
+      /* Style About Us section below */
+#about-us {
+    padding: 50px 20px;
+    padding-top: 20vh;
+    text-align: center;
+}
+
+  /* Navbar Styles */
+  .navbar {
+    background: linear-gradient(90deg, #1E90FF, #32CD32); /* Gradient from blue to green */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  .nav-item {
+    margin-left: 20px;
+  }
+  .nav-item a {
+    color: white;
+    font-family: "NavBar";
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .nav-item a:hover {
+    color: #FFD700; /* Golden color on hover */
+  }
+
+  .intro{
+    text-align: center; 
+    padding: 30px;
+    font-family: "Test_font";
+    position: relative;
+    min-height: 100vh; /* Takes up full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 1; 
+  }
+
+  #animation {
+    position: relative; 
+    animation: fadeIn 2s ease-in;
+  }

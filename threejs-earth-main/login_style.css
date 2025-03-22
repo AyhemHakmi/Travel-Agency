@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "NavBar";
+    src: url("./Fonts/unicode.futurabb.ttf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+  }
+
+    /* Navbar Styles */
+    .navbar {
+        background: linear-gradient(90deg, #1E90FF, #32CD32); /* Gradient from blue to green */
+        padding: 10px 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        position: relative; /* or fixed if you want it fixed at the top */
+        z-index: 10; /* a value higher than the canvas's z-index */
+      }
+      .nav-menu {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+      }
+      .nav-item {
+        margin-left: 20px;
+      }
+      .nav-item a {
+        color: white;
+        font-family: "NavBar";
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        transition: color 0.3s;
+      }
+      .nav-item a:hover {
+        color: #FFD700; /* Golden color on hover */
+      }
+
+  .login-container {
+    position: relative;
+    width: 90vh;
+    height: 60vh;
+    max-width: 90%;
+    margin: 100px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+  }
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .login-container input {
+    width: 95%;
+    padding: 20px;
+    margin: 25px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .login-container button {
+    width: 100%;
+    padding: 20px;
+    background-color: #1E90FF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .login-container button:hover {
+    background-color: #1C86EE;
+  }
+  /* Ensure the Three.js canvas is at the bottom left */
+  canvas {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
