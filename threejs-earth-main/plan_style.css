@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "NavBar";
+  src: url("./Fonts/unicode.futurabb.ttf") format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Reset */
 * {
     margin: 0;
@@ -50,6 +57,7 @@
     text-decoration: none;
     color: #fff;
     transition: text-decoration 0.3s;
+    font-family: "NavBar";
   }
   .nav-link:hover {
     text-decoration: underline;
@@ -63,6 +71,7 @@
     font-weight: 500;
     cursor: pointer;
     transition: background 0.3s;
+    font-family: "NavBar";
   }
   .btn-signin:hover {
     background: #EFF6FF;

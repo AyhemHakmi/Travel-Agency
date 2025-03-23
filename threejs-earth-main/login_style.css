@@ -5,6 +5,13 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: "Test_font";
+    src: url("./Fonts/Crustaceans-SignatureDEMO-Regular.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -14,36 +21,83 @@ body {
   }
 
     /* Navbar Styles */
-    .navbar {
-        background: linear-gradient(90deg, #1E90FF, #32CD32); /* Gradient from blue to green */
-        padding: 10px 20px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        position: relative; /* or fixed if you want it fixed at the top */
-        z-index: 10; /* a value higher than the canvas's z-index */
-      }
-      .nav-menu {
-        list-style: none;
-        display: flex;
-        justify-content: flex-end;
-        margin: 0;
-        padding: 0;
-      }
-      .nav-item {
-        margin-left: 20px;
-      }
-      .nav-item a {
-        color: white;
-        font-family: "NavBar";
-        text-decoration: none;
-        font-size: 16px;
-        font-weight: bold;
-        transition: color 0.3s;
-      }
-      .nav-item a:hover {
-        color: #FFD700; /* Golden color on hover */
-      }
+  /* Header */
+/* Header (Navbar Container) */
+.header-style {
+  position: relative; /* Establishes a new stacking context */
+  z-index: 3;         /* Ensures the header appears above the canvas */
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  padding: 1rem 0;
+}
 
-  .login-container {
+/* Navbar Main Area */
+.nav-style {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Brand Section */
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo Styling */
+.logo {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+/* Brand Text Styling */
+.brand-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Navigation Links Container */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-family: "NavBar";
+}
+
+/* Individual Link Styling */
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  transition: text-decoration 0.3s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Sign In Button Styling */
+.btn-signin {
+  background: #fff;
+  color: #3B82F6;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-family: "NavBar";
+}
+
+.btn-signin:hover {
+  background: #EFF6FF;
+}
+
+.login-container {
     position: relative;
     width: 90vh;
     height: 60vh;
@@ -54,7 +108,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     z-index: 2;
-  }
+}
   .login-container h1 {
     text-align: center;
     margin-bottom: 30px;
