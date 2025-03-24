@@ -104,3 +104,9 @@ window.addEventListener('resize', () => {
   camera.aspect = w / h;
   camera.updateProjectionMatrix();
 });
+<script type="importmap">
+    {"imports"}: {"three"}: "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+    "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+    }
+    }
+</script>;
