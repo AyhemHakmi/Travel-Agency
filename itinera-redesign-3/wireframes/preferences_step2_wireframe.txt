@@ -1,0 +1,63 @@
++------------------------------------------------------------------+
+|                                                                  |
+|  LOGO                                   HOME  ABOUT  CONTACT     |
+|                                                                  |
++------------------------------------------------------------------+
+|                                                                  |
+|  CREATE YOUR TRAVEL ITINERARY                                    |
+|                                                                  |
+|  +--------------------------------------------------------------+|
+|  |                                                              ||
+|  |  PROGRESS BAR: [Step 1] [Step 2] [Step 3] [Step 4]           ||
+|  |                                                              ||
+|  +--------------------------------------------------------------+|
+|                                                                  |
+|  +--------------------------------------------------------------+|
+|  |                                                              ||
+|  |  STEP 2: TRAVEL PREFERENCES                                  ||
+|  |                                                              ||
+|  |  What is your budget range?                                  ||
+|  |  +--------------------------------------------------+        ||
+|  |  |                                                  |        ||
+|  |  |  [Budget slider/range selector]                  |        ||
+|  |  |                                                  |        ||
+|  |  +--------------------------------------------------+        ||
+|  |                                                              ||
+|  |  What type of accommodation do you prefer?                   ||
+|  |  (Select all that apply)                                     ||
+|  |                                                              ||
+|  |  [ ] Budget/Hostel  [ ] Mid-range  [ ] Luxury                ||
+|  |  [ ] Apartment/Airbnb  [ ] Resort  [ ] Boutique              ||
+|  |                                                              ||
+|  |  What activities are you interested in?                      ||
+|  |  (Select all that apply)                                     ||
+|  |                                                              ||
+|  |  [ ] Sightseeing  [ ] Adventure  [ ] Relaxation              ||
+|  |  [ ] Cultural     [ ] Food/Dining  [ ] Shopping              ||
+|  |  [ ] Nature       [ ] Nightlife    [ ] Family-friendly       ||
+|  |                                                              ||
+|  |  How do you prefer to travel between locations?              ||
+|  |  (Select all that apply)                                     ||
+|  |                                                              ||
+|  |  [ ] Public Transport  [ ] Rental Car  [ ] Taxi/Rideshare    ||
+|  |  [ ] Walking/Biking    [ ] Guided Tours                      ||
+|  |                                                              ||
+|  |  +------------------+  +---------------------------+         ||
+|  |  |                  |  |                           |         ||
+|  |  |  [PREVIOUS STEP] |  |  [NEXT STEP]              |         ||
+|  |  |                  |  |                           |         ||
+|  |  +------------------+  +---------------------------+         ||
+|  |                                                              ||
+|  +--------------------------------------------------------------+|
+|                                                                  |
++------------------------------------------------------------------+
+|                                                                  |
+|  FOOTER                                                          |
+|                                                                  |
+|  LOGO                                                            |
+|                                                                  |
+|  About Us | Contact | Privacy Policy | Terms of Service          |
+|                                                                  |
+|  © 2025 AI Travel Itinerary Maker                               |
+|                                                                  |
++------------------------------------------------------------------+

@@ -1,0 +1,60 @@
++------------------------------------------------------------------+
+|                                                                  |
+|  LOGO                                   HOME  ABOUT  CONTACT     |
+|                                                                  |
++------------------------------------------------------------------+
+|                                                                  |
+|  CREATE YOUR TRAVEL ITINERARY                                    |
+|                                                                  |
+|  +--------------------------------------------------------------+|
+|  |                                                              ||
+|  |  PROGRESS BAR: [Step 1] [Step 2] [Step 3] [Step 4]           ||
+|  |                                                              ||
+|  +--------------------------------------------------------------+|
+|                                                                  |
+|  +--------------------------------------------------------------+|
+|  |                                                              ||
+|  |  STEP 3: SPECIAL REQUIREMENTS                                ||
+|  |                                                              ||
+|  |  Do you have any dietary restrictions?                       ||
+|  |  (Select all that apply)                                     ||
+|  |                                                              ||
+|  |  [ ] Vegetarian  [ ] Vegan  [ ] Gluten-free                  ||
+|  |  [ ] Dairy-free  [ ] Kosher [ ] Halal                        ||
+|  |  [ ] None        [ ] Other: [_________________]              ||
+|  |                                                              ||
+|  |  Do you have any accessibility requirements?                 ||
+|  |  (Select all that apply)                                     ||
+|  |                                                              ||
+|  |  [ ] Wheelchair accessible  [ ] Limited mobility             ||
+|  |  [ ] Visual impairments     [ ] Hearing impairments          ||
+|  |  [ ] None                   [ ] Other: [_________________]   ||
+|  |                                                              ||
+|  |  Any additional preferences or requirements?                 ||
+|  |  +--------------------------------------------------+        ||
+|  |  |                                                  |        ||
+|  |  |  [Text area for additional information]          |        ||
+|  |  |                                                  |        ||
+|  |  |                                                  |        ||
+|  |  |                                                  |        ||
+|  |  +--------------------------------------------------+        ||
+|  |                                                              ||
+|  |  +------------------+  +---------------------------+         ||
+|  |  |                  |  |                           |         ||
+|  |  |  [PREVIOUS STEP] |  |  [NEXT STEP]              |         ||
+|  |  |                  |  |                           |         ||
+|  |  +------------------+  +---------------------------+         ||
+|  |                                                              ||
+|  +--------------------------------------------------------------+|
+|                                                                  |
++------------------------------------------------------------------+
+|                                                                  |
+|  FOOTER                                                          |
+|                                                                  |
+|  LOGO                                                            |
+|                                                                  |
+|  About Us | Contact | Privacy Policy | Terms of Service          |
+|                                                                  |
+|  © 2025 AI Travel Itinerary Maker                               |
+|                                                                  |
++------------------------------------------------------------------+

@@ -1,0 +1,63 @@
++------------------------------------------------------------------+
+|                                                                  |
+|  LOGO                                   HOME  ABOUT  CONTACT     |
+|                                                                  |
++------------------------------------------------------------------+
+|                                                                  |
+|  CREATE YOUR TRAVEL ITINERARY                                    |
+|                                                                  |
+|  +--------------------------------------------------------------+|
+|  |                                                              ||
+|  |  PROGRESS BAR: [Step 1] [Step 2] [Step 3] [Step 4]           ||
+|  |                                                              ||
+|  +--------------------------------------------------------------+|
+|                                                                  |
+|  +--------------------------------------------------------------+|
+|  |                                                              ||
+|  |  STEP 4: REVIEW & GENERATE                                   ||
+|  |                                                              ||
+|  |  Review Your Travel Preferences                              ||
+|  |                                                              ||
+|  |  Destination: [Selected destination]                         ||
+|  |  Dates: [Start date] to [End date]                           ||
+|  |  Travelers: [Number of travelers]                            ||
+|  |                                                              ||
+|  |  Budget: [Selected budget range]                             ||
+|  |  Accommodation: [Selected accommodation types]                ||
+|  |  Activities: [Selected activities]                           ||
+|  |  Transportation: [Selected transportation methods]           ||
+|  |                                                              ||
+|  |  Dietary Restrictions: [Selected restrictions]               ||
+|  |  Accessibility Requirements: [Selected requirements]         ||
+|  |  Additional Notes: [User provided notes]                     ||
+|  |                                                              ||
+|  |  +--------------------------------------------------+        ||
+|  |  |                                                  |        ||
+|  |  |  Would you like our AI to optimize for:          |        ||
+|  |  |                                                  |        ||
+|  |  |  ( ) Budget-friendly options                     |        ||
+|  |  |  ( ) Most popular attractions                    |        ||
+|  |  |  ( ) Off-the-beaten-path experiences             |        ||
+|  |  |  ( ) Balanced itinerary                          |        ||
+|  |  |                                                  |        ||
+|  |  +--------------------------------------------------+        ||
+|  |                                                              ||
+|  |  +------------------+  +---------------------------+         ||
+|  |  |                  |  |                           |         ||
+|  |  |  [PREVIOUS STEP] |  |  [GENERATE MY ITINERARY]  |         ||
+|  |  |                  |  |                           |         ||
+|  |  +------------------+  +---------------------------+         ||
+|  |                                                              ||
+|  +--------------------------------------------------------------+|
+|                                                                  |
++------------------------------------------------------------------+
+|                                                                  |
+|  FOOTER                                                          |
+|                                                                  |
+|  LOGO                                                            |
+|                                                                  |
+|  About Us | Contact | Privacy Policy | Terms of Service          |
+|                                                                  |
+|  © 2025 AI Travel Itinerary Maker                               |
+|                                                                  |
++------------------------------------------------------------------+

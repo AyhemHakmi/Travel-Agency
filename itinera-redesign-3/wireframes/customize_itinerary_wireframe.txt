@@ -1,0 +1,64 @@
++------------------------------------------------------------------+
+|                                                                  |
+|  LOGO                                   HOME  ABOUT  CONTACT     |
+|                                                                  |
++------------------------------------------------------------------+
+|                                                                  |
+|  CUSTOMIZE YOUR ITINERARY                                        |
+|                                                                  |
+|  +--------------------------------------------------------------+|
+|  |                                                              ||
+|  |  Destination: [Selected destination]                         ||
+|  |  Dates: [Start date] to [End date]                           ||
+|  |                                                              ||
+|  +--------------------------------------------------------------+|
+|                                                                  |
+|  +------------------+  +--------------------------------------+  |
+|  |                  |  |                                      |  |
+|  |  DAY SELECTION   |  |  DAY DETAILS                         |  |
+|  |                  |  |                                      |  |
+|  |  [Day 1]         |  |  DAY 1: [Date]                       |  |
+|  |  [Day 2]         |  |                                      |  |
+|  |  [Day 3]         |  |  Morning:                            |  |
+|  |  [Day 4]         |  |  - Activity 1 [Time] [Location]      |  |
+|  |  [Day 5]         |  |    [Edit] [Remove] [Replace]         |  |
+|  |  [Day 6]         |  |  - Activity 2 [Time] [Location]      |  |
+|  |  [Day 7]         |  |    [Edit] [Remove] [Replace]         |  |
+|  |                  |  |                                      |  |
+|  |                  |  |  Afternoon:                          |  |
+|  |                  |  |  - Activity 3 [Time] [Location]      |  |
+|  |                  |  |    [Edit] [Remove] [Replace]         |  |
+|  |                  |  |  - Activity 4 [Time] [Location]      |  |
+|  |                  |  |    [Edit] [Remove] [Replace]         |  |
+|  |                  |  |                                      |  |
+|  |                  |  |  Evening:                            |  |
+|  |                  |  |  - Activity 5 [Time] [Location]      |  |
+|  |                  |  |    [Edit] [Remove] [Replace]         |  |
+|  |                  |  |  - Activity 6 [Time] [Location]      |  |
+|  |                  |  |    [Edit] [Remove] [Replace]         |  |
+|  |                  |  |                                      |  |
+|  |                  |  |  Accommodation:                      |  |
+|  |                  |  |  - [Hotel/Accommodation name]        |  |
+|  |                  |  |    [Edit] [Remove] [Replace]         |  |
+|  |                  |  |                                      |  |
+|  |                  |  |  [+ Add Activity]                    |  |
+|  |                  |  |                                      |  |
+|  +------------------+  +--------------------------------------+  |
+|                                                                  |
+|  +--------------------------------------------------------------+|
+|  |                                                              ||
+|  |  [BACK TO ITINERARY]  [SAVE CHANGES]                         ||
+|  |                                                              ||
+|  +--------------------------------------------------------------+|
+|                                                                  |
++------------------------------------------------------------------+
+|                                                                  |
+|  FOOTER                                                          |
+|                                                                  |
+|  LOGO                                                            |
+|                                                                  |
+|  About Us | Contact | Privacy Policy | Terms of Service          |
+|                                                                  |
+|  © 2025 AI Travel Itinerary Maker                               |
+|                                                                  |
++------------------------------------------------------------------+
