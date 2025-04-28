@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Itinerary - Step 2 | AI Travel Itinerary Maker</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="AI Travel Itinerary Maker" height="40" class="d-inline-block align-text-top">
+                AI Travel Planner
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#how-it-works">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#destinations">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Form Section -->
+    <section class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Create Your Travel Itinerary</h1>
+            
+            <div class="form-container">
+                <!-- Progress Bar -->
+                <div class="progress-container">
+                    <div class="step-progress">
+                        <div class="step completed">1</div>
+                        <div class="step active">2</div>
+                        <div class="step">3</div>
+                        <div class="step">4</div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-3">Destination & Dates</div>
+                        <div class="col-3">Travel Preferences</div>
+                        <div class="col-3">Special Requirements</div>
+                        <div class="col-3">Review & Generate</div>
+                    </div>
+                </div>
+                
+                <!-- Step 2 Form -->
+                <form id="step2Form" action="preferences-step3.html">
+                    <h3 class="mb-4">Step 2: Travel Preferences</h3>
+                    
+                    <div class="mb-4">
+                        <label for="budgetRange" class="form-label">What is your budget range?</label>
+                        <div class="d-flex align-items-center">
+                            <span class="me-2">$</span>
+                            <input type="range" class="form-range flex-grow-1" id="budgetRange" min="100" max="10000" step="100" value="2000">
+                            <span class="ms-2" id="budgetValue">$2,000</span>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label class="form-label">What type of accommodation do you prefer?</label>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="budget" id="accomBudget">
+                                    <label class="form-check-label" for="accomBudget">Budget/Hostel</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="midrange" id="accomMidrange" checked>
+                                    <label class="form-check-label" for="accomMidrange">Mid-range</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="luxury" id="accomLuxury">
+                                    <label class="form-check-label" for="accomLuxury">Luxury</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="apartment" id="accomApartment">
+                                    <label class="form-check-label" for="accomApartment">Apartment/Airbnb</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="resort" id="accomResort">
+                                    <label class="form-check-label" for="accomResort">Resort</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="boutique" id="accomBoutique">
+                                    <label class="form-check-label" for="accomBoutique">Boutique</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label class="form-label">What activities are you interested in?</label>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="sightseeing" id="actSightseeing" checked>
+                                    <label class="form-check-label" for="actSightseeing">Sightseeing</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="adventure" id="actAdventure">
+                                    <label class="form-check-label" for="actAdventure">Adventure</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="relaxation" id="actRelaxation">
+                                    <label class="form-check-label" for="actRelaxation">Relaxation</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="cultural" id="actCultural" checked>
+                                    <label class="form-check-label" for="actCultural">Cultural</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="food" id="actFood" checked>
+                                    <label class="form-check-label" for="actFood">Food/Dining</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="shopping" id="actShopping">
+                                    <label class="form-check-label" for="actShopping">Shopping</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="nature" id="actNature">
+                                    <label class="form-check-label" for="actNature">Nature</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="nightlife" id="actNightlife">
+                                    <label class="form-check-label" for="actNightlife">Nightlife</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="family" id="actFamily">
+                                    <label class="form-check-label" for="actFamily">Family-friendly</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label class="form-label">How do you prefer to travel between locations?</label>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="public" id="transPublic" checked>
+                                    <label class="form-check-label" for="transPublic">Public Transport</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="rental" id="transRental">
+                                    <label class="form-check-label" for="transRental">Rental Car</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="taxi" id="transTaxi">
+                                    <label class="form-check-label" for="transTaxi">Taxi/Rideshare</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="walking" id="transWalking" checked>
+                                    <label class="form-check-label" for="transWalking">Walking/Biking</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="tours" id="transTours">
+                                    <label class="form-check-label" for="transTours">Guided Tours</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-between">
+                        <a href="preferences-step1.html" class="btn btn-secondary btn-lg">Previous Step</a>
+                        <button type="submit" class="btn btn-primary btn-lg">Next Step</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>AI Travel Planner</h5>
+                    <p>Creating personalized travel experiences with the power of artificial intelligence.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="index.html#how-it-works" class="text-white">How It Works</a></li>
+                        <li><a href="index.html#destinations" class="text-white">Destinations</a></li>
+                        <li><a href="index.html#testimonials" class="text-white">Testimonials</a></li>
+                        <li><a href="index.html#about" class="text-white">About</a></li>
+                        <li><a href="index.html#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 AI Travel Itinerary Maker. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">
+                        <a href="#" class="text-white">Privacy Policy</a> | 
+                        <a href="#" class="text-white">Terms of Service</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <script>
+        // Budget range slider
+        const budgetRange = document.getElementById('budgetRange');
+        const budgetValue = document.getElementById('budgetValue');
+        
+        budgetRange.addEventListener('input', function() {
+            budgetValue.textContent = '$' + parseInt(this.value).toLocaleString();
+        });
+    </script>
+</body>
+</html>
